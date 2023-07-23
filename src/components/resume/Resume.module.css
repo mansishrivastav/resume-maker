@@ -1,0 +1,150 @@
+.container {
+    --color: #239ce2;
+    min-width: 700px;
+    max-width: 850px;
+    margin: 0 auto;
+    flex: 1.2rem;
+    height: fit-content;
+    min-height: 900px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header .heading {
+    font-size: 2.7rem;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  
+  .header .subHeading {
+    color: var(--color);
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+  
+  .header .links {
+    margin-top: 1.2rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+  }
+  
+  .header .link {
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .header .link svg {
+    color: var(--color);
+    height: 1rem;
+    width: 1rem;
+  }
+  
+  .main {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .col1 {
+    flex: 1.3;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3 rem;
+  }
+  .col2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3 rem;
+  }
+  
+  .section .sectionTitle {
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 100%;
+    border-bottom: 2px solid #000;
+  }
+  
+  .section .content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 0.8rem 0;
+  }
+  .section .content .item {
+    border-bottom: 1px dotted lightgray;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding-bottom: 0.8rem;
+  }
+  .section .content .item:last-child {
+    border-bottom: none;
+  }
+  
+  .content .title {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  
+  .content .subTitle {
+    font-weight: bold;
+    color: var(--color);
+    font-size: 1rem;
+  }
+  
+  .content .overview {
+    font-size: 0.875rem;
+  }
+  
+  .content .link {
+    display: flex;
+    gap: 5px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    color: var(--color);
+  }
+  .content .link svg {
+    height: 14px;
+    width: 14px;
+    color: var(--color);
+  }
+  
+  .content .date {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 0.875rem;
+  }
+  
+  .content .date svg {
+    height: 1rem;
+    width: 1rem;
+  }
+  
+  .content .points,
+  .numbered {
+    padding-left: 1.2rem;
+    font-size: 0.875rem;
+  }
+  
+  .numbered li {
+    list-style-type: decimal;
+  }
+  
+  .hidden {
+    display: none;
+  }

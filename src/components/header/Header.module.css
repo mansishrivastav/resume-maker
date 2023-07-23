@@ -1,0 +1,31 @@
+.container {
+    padding: 5.2rem 2rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, #f3dae2, rgb(198, 225, 239));
+    gap:2rem;
+    align-items: center;
+    min-height: 80vh;
+  }
+  
+  .heading {
+    margin: 0 auto;
+  max-width: 600px;
+  color: hsl(204, 70%, 53%);
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Belanosima", sans-serif;
+  }
+  
+  .heading span {
+    color: #e12964;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+  }
+  
+  .right img {
+    width: 400px;
+  }

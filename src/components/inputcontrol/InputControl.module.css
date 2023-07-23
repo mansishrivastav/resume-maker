@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap:0rem;
+    margin-top:2rem;
+  }
+  
+  label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  input {
+    border:none;
+    border-bottom: 1px solid hsl(204, 70%, 53%);
+    padding:0.5rem;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  input:hover,:focus{
+    border-bottom:2px solid #e12964;
+}

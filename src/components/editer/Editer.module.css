@@ -1,0 +1,126 @@
+.container {
+    min-width: 500px;
+    min-height: 400px;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .header {
+    display: flex;
+    gap:1rem;
+    overflow-y: auto;
+  }
+  
+  .header::-webkit-scrollbar {
+    height: 7px;
+  }
+  
+  .header::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #c7c7c7;
+  }
+  
+  .header .section {
+    padding: 1rem;
+    border-bottom: 1px solid transparent;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+  
+  }
+  
+  .header .active {
+    border-bottom: 2px solid hsl(204, 70%, 53%); 
+
+  }
+  
+  .body {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap:1rem;
+  }
+  
+  .detail {
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+  }
+  
+  .detail .row {
+    display: flex;
+    gap:3rem;
+  }
+  .detail .column {
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+  }
+  .detail .row > div {
+    flex: 1;
+  }
+  
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+  }
+  
+  .chips .new {
+    color: #239ce2;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  
+  .chip {
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    padding:  0.4rem 0.4rem;
+    background-color:hsl(204, 70%, 53%);
+    border-radius: 2rem;
+  }
+  
+  .chip p {
+    margin-right: -0.8rem;
+    font-weight: 500;
+    line-height: 1rem;
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif; 
+  }
+  
+  .chip .cross{
+    color: white;
+    cursor: pointer;
+    }
+  .chips .active {
+    background-color: #239ce2;
+  }
+  
+  .body button {
+    width:6rem;
+    padding: 0.8rem 1rem;
+    letter-spacing: 0.05rem;
+    font-size: 1rem;
+    background-color: #e12964;
+    font-weight: 700;
+    color:  hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 300ms;
+  }
+  
+  .body button:active {
+    background-color: #bd1b4e;
+    transform: translatey(0.5rem);
+  }
+  
